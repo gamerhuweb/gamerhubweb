@@ -64,7 +64,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("📰 Gamer.hu Cikkkereső")
+st.title("📰 Gamer.hu lekérő")
 
 with st.form("kereso_form"):
     author_map = get_authors()
