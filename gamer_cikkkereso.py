@@ -55,7 +55,7 @@ def create_txt(data):
         buffer.write(f"{item['title']}\n{item['link']}\n\n")
     return buffer.getvalue().encode("utf-8")
 
-st.set_page_config(page_title="Gamer.hu Cikkkereső", layout="centered")
+st.set_page_config(page_title="Gamer.hu lekérő", layout="centered")
 st.markdown("""
     <style>
         body { background-color: #f5f7fa; }
